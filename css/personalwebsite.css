@@ -1,0 +1,12 @@
+body
+{
+background: #1b325f;
+    background-image: url(img/navyquartrefoil.gif);
+    background-repeat:repeat;
+    font-family:Palatino Linotype, Book Antiqua, Palatino, Serif;
+}
+
+nav {
+ background: #fff;
+    
+}
