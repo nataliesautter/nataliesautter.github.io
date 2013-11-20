@@ -27,6 +27,8 @@ body{
         font-family: helvetica, arial;
 }
 
+li {list-style-type: none;}
+
 
 /*--Layout-- */
 
@@ -86,8 +88,9 @@ article {
     line-height: 25px;
         width: 700px;
         float: left;
-        padding: 0px 20px 20px 20px;
+        padding: 20px 20px 20px 20px;
 }
+
 p       {
     padding-bottom: 20px;
 } 
@@ -118,7 +121,7 @@ footer {
         padding-top: 15px;
     border-top: 10px solid #fd6f60;
     margin-left:38px;
-    margin-top: 780px;   
+    margin-top: 1480px;   
 }
 
 footer li {
