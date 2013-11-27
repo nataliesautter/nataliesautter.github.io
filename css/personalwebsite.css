@@ -17,7 +17,7 @@ body {
 
 nav ul {
         list-style: none;
-    padding-right: 100px; 
+        padding-right: 100px; 
 }
 
 body{
@@ -40,11 +40,11 @@ body{
 
 
 header {
-        width:100%;
-        height:100%;
-    margin-bottom:5px;
-    border-bottom: 10px solid #fe6a64;
-    margin-left:38px;
+        max-width:950px;
+        margin-bottom:10px;
+        border-bottom: 10px solid #fe6a64;
+        margin: 0 auto;
+        padding-bottom: 10px;
 
 } 
 
@@ -55,7 +55,7 @@ nav{
         float: left;
         text-align: center; 
         font-family: helvetica, monospace;
-    padding: 30px 80px 0px 0px;
+        padding: 30px 20px 0px 0px;
 }
 
 nav a:link, nav a:visited {
@@ -68,7 +68,7 @@ nav a:link, nav a:visited {
           text-align: center;
           margin-bottom: 35px;
           margin-left:40px;
-    line-height: 7;
+          line-height: 7;
 }
 
 nav a:hover {
@@ -83,11 +83,12 @@ nav a:active {
 /*--the guts/main content--*/
 
 article {
-    line-height: 25px;
-        width: 700px;
-        float: left;
+        line-height: 25px;
+        margin-left: 200px;
+        margin-right: 100px;
         padding: 0px 20px 20px 20px;
 }
+
 p       {
     padding-bottom: 20px;
 } 
@@ -111,14 +112,12 @@ p       {
 
 
 footer {
-    width: 950px;
-        height: 110px;
+        max-width: 950px;
         background-color: #fff;
         text-align: center;
-        padding-top: 15px;
-    border-top: 10px solid #fd6f60;
-    margin-left:38px;
-    margin-top: 780px;   
+        padding-top: 10px;
+        border-top: 10px solid #fd6f60;
+        margin: 0 auto;
 }
 
 footer li {
@@ -132,24 +131,29 @@ a:hover {
 }
 
 /*--link rules--*/
+
 a:link {
-        color: #1942B2;
+        color: #1b325f;
         text-decoration: none;
 }
 
 a:visited {
-        color: #1942B2;
+        color: #1b325f;
         text-decoration: none;
 }
 
 a:hover {
-        color: #1942B2;
+        color: #fff200;
         text-decoration: none;
 }
 
 nav {
         width: 100px;
-    font-size: 14px;
+        font-size: 14px;
         float: left;
         font-family: helvetica, ;
 }
+
+/*--Mobile optimization--*/
+
+    @media 
