@@ -157,4 +157,29 @@ nav {
 
 /*--Mobile optimization--*/
 
-    @media 
+@media screen and (max-width: 600px) 
+    {
+        width: 120%;
+        border-top: 10px solid: #fd6f60;
+        padding-top: 2%;
+        float: left;
+        list-style: none;
+}
+
+nav li {
+        float: left;
+        margin-left:1%;
+}
+
+header h1 {
+        width: 80%;
+        text-align: center;
+}
+
+header h2 {
+        width: 80%;
+        padding-left: 0px;
+        text-align: center;
+        padding-bottom: 0:
+}
+}
