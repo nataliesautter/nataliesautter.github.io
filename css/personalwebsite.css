@@ -54,7 +54,7 @@ nav{
         width: 200px;
         float: left;
         text-align: center; 
-        font-family: helvetica, monospace;
+        font-family: tahoma, monospace;
         padding: 30px 20px 0px 0px;
 }
 
@@ -158,8 +158,22 @@ nav {
 .related { /* helper class for images and supporting content */
     float: right;
     width: 190px; 
+    margin: 8px 8px 0 13px;
+}
+
+.imageclass { /* helper class for images and supporting content */
+    float: right;
+    width: 135px; 
+    height: 135px;
+    margin: 8px 8px 0 20px;
+}
+
+.imageclass_2 { /* helper class for images and supporting content */
+    float: right;
+    width: 175px;
     margin: 8px 8px 0 8px;
 }
+
 
 /*--Mobile optimization--*/
 
